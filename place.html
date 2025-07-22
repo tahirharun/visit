@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Destination Cards</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+ <!-- Header -->
+  <header class="flex justify-between items-center p-6 shadow-md">
+    <div class="text-2xl font-bold text-red-600">
+      <span class="font-extrabold">Reliance</span><span class="text-pink-500">Adventure Tours</span>
+    </div>
+    <div class="space-x-4">
+      <button class="border border-red-600 text-red-600 px-4 py-1 rounded-full hover:bg-red-50">Sign Up</button>
+      <button class="bg-red-600 text-white px-4 py-1 rounded-full hover:bg-red-700">Login</button>
+    </div>
+      <div class="text-2xl font-bold text-red-600">
+      <a class="mr-5 hover:text-blue-400 cursor-pointer text-green-400">Contact</a>
+    </div>
+  </header>
+<body class="bg-gradient-to-r from-purple-700 to-red-700">
+
+  <div class="flex space-x-4 overflow-x-auto p-8">
+    
+    <!-- Card 1 -->
+    <div class="w-60 flex-shrink-0 rounded-xl overflow-hidden shadow-lg relative">
+      <img src="photos/Swayambhunath Stupa.jpeg" class="w-full h-80 object-cover" alt="Kathmandu ">
+      <div class="absolute bottom-4 left-4 text-white">
+        <h2 class="text-red-600 font-bold">Kathmandu </h2>
+        <p class="text-orange-400">price per night $48</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="w-60 flex-shrink-0 rounded-xl overflow-hidden shadow-lg relative">
+      <img src="photos/Bangkok.jpeg" class="w-full h-80 object-cover" alt="Rio de Janeiro">
+      <div class="absolute bottom-4 left-4 text-white">
+        <h2 class="text-red-600 font-bold">Bangkok</h2>
+        <p class="text-orange-400">price per night $65</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="w-60 flex-shrink-0 rounded-xl overflow-hidden shadow-lg relative">
+      <img src="photos/colombo.jpeg" class="w-full h-80 object-cover" alt="Delhi">
+      <div class="absolute bottom-4 left-4 text-white">
+        <h2 class="text-red-600 font-bold">colombo</h2>
+        <p class="text-orange-400">price per $65</p>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="w-60 flex-shrink-0 rounded-xl overflow-hidden shadow-lg relative">
+      <img src="photos/Kuala Lumpur.jpeg" class="w-full h-80 object-cover" alt="Breckenridge">
+      <div class="absolute bottom-4 left-4 text-white">
+        <h2 class="text-red-600 font-bold">Kuala lumpur</h2>
+        <p class="text-orange-400">price per night $89</p>
+      </div>
+    </div>
+  </div>
+   <button class="inline-flex items-center bg-yellow-100 border-0 py-1 px-3 focus:outline-none hover:bg-red-600 rounded text-blue-700 mt-4 md:mt-0">Book-now
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
+</body>
+</html>
